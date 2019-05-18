@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Homepage Firma</title>
+    <link rel="stylesheet" type="text/css"
+        href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css"
+        integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles/styles.css" type="text/css">
+</head>
+
+<body>
+
+    <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-light bg-secondary">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html"><i class="fas fa-home"></i> Home</i></a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" id="navbarDropdown" data-toggle="dropdown"
+                            aria-haspopup="true" aria-expanded="false" href="#" role="button"><i
+                                class="fas fa-question-circle"></i> Despre</a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="obiective.html">Obiective</a>
+                            <a class="dropdown-item" href="istoric.html">Istoric</a>
+                            <a class="dropdown-item" href="galerie.html">Galerie foto</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <div class="col-12 jumbotron">
+            <h1 class="title">Obiective</h1>
+            <hr>
+            <div class="row">
+                <div class="col-md-3 pop">
+                    <img src="pics/4.jpg">
+                </div>
+                <div class="col-md-9">
+                    <strong>Podul Suspendat</strong>
+                    <p>Podul leagă două dintre dealurile din parc și este o punte peste lacul care se întinde pe 4
+                        hectare.
+                        Peisajul Podului Suspendat deasupra lacului pe care vizitatorii se pot plimba cu barca scoate în
+                        evidență stilul romantic al Parcului Romanescu.</p>
+                </div>
+                <div class="col-md-9">
+                    <strong>Castelul Fermecat</strong>
+                    <p>Castelul este rodul imaginației arhitectului francez Edouard Redont și imită un castel medieval.
+                        Inițial castelul era pur și simplu un adăpost stilizat pentru bazinele de apă folosite la
+                        irigarea parcului. Apoi, în interiorul castelului a fost amenajat un restaurant. În prezent
+                        castelul este o simplă structură ce poate fi vizitată și amintește de vremuri cu regi și
+                        cavaleri.</p>
+                </div>
+                <div class="col-md-3 pop">
+                    <img src="pics/3.jpg">
+                </div>
+                <div class="col-md-3 pop">
+                    <img src="pics/11.jpg">
+                </div>
+                <div class="col-md-9">
+                    <strong>Palatul Bibescu</strong>
+                    <p>Palatul logofătului Bibescu se află la depărtare de aleile la care vizitatorii au acces. La
+                        intrare stă scris: <cite>„În această clădire, numită Palatul Bibescu, în zilele de 26 și 27
+                            iunie
+                            1859, a fost găzduit domnitorul Alexandru Ioan Cuza, cu prilejul vizitei pe care a făcut-o
+                            la
+                            Craiova”</cite>. Astăzi palatul este renovat și a devenit imobil de protocol pentru Primăria
+                        din
+                        Craiova.</p>
+                </div>
+                <div class="col-md-9">
+                    <strong>Grădina Zoologică</strong>
+                    <p>Grădina Zoologică a fost inaugurată în anul 1906, fiind astfel cea mai veche din țară. De-a
+                        lungul timpului, aici au putut fi admirate animale și păsări precum: tigrul, lama, jaguarul,
+                        leul, maimuța, struțul sau păunul. În apropierea grădinii se află Chioșcul Fanfarei, realizat
+                        special la Viena și Teatrul de Vară.</p>
+                </div>
+                <div class="col-md-3 pop">
+                    <img src="pics/12.jpg">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="imagemodal" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <button type="button" class="close" data-dismiss="modal"><span
+                            aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                    <img src="#" class="imagepreview" alt="zoom" width="100%">
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"></script>
+    <script src="scripts/popImage.js"></script>
+</body>
+
+</html>
